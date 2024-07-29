@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tutorial/components/Buttons.dart';
+// import 'package:flutter_tutorial/components/Buttons.dart';
+import 'package:flutter_tutorial/components/ScrollableWidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -40,7 +41,8 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.deepPurple.shade100,
       body: const Center(
         // child: Text('Home'),
-        child: Buttons(),
+        // child: Buttons(),
+        child: ScrollableWidget(),
       ),
     );
   }
