@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_tutorial/components/AppBar.dart';
-import 'package:flutter_tutorial/components/MultipleScrollWidget.dart';
+// import 'package:flutter_tutorial/components/MultipleScrollWidget.dart';
+import 'package:flutter_tutorial/components/theme_changer.dart';
 import 'package:flutter_tutorial/config/my_theme.dart';
 import 'package:get/get.dart';
 
@@ -24,7 +25,7 @@ class FirstFlutterTutorial extends StatelessWidget {
       // ),
       theme: lightTheme,
       darkTheme: darkTheme,
-      home: const MultipleScrollwidget(),
+      home: const ThemeChanger(),
     );
   }
 }
