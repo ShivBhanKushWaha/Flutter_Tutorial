@@ -15,10 +15,10 @@ final ThemeData lightTheme = ThemeData(
     iconTheme: IconThemeData(color: Colors.white),
     centerTitle: true,
   ),
-  colorScheme: ColorScheme.light(
+  colorScheme: const ColorScheme.light(
     surface: lightBgColor, // for scafoldbackground color
     onSurface: lightTextColor, // for text color
-    primary: const Color.fromARGB(255, 209, 191, 212), // for appbar background color
+    primary:  Color.fromARGB(255, 209, 191, 212), // for appbar background color
     onPrimary: Colors.white, // for app bar text color
     secondary: buttuncolor, // for button background: color
     onSecondary: lightcolor, // for  button text color
